@@ -22,3 +22,4 @@ Previously, I obtained my Bachelor’s degree from GSAI, Renmin University of Ch
 Also, I spent a meaningful time at Microsoft Research Asia as a research intern, working with Dr. Xingxing Zhang.
 
 
+**Email:** guogeyang at ruc.edu.cn
