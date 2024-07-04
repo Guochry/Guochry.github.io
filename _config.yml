@@ -96,7 +96,7 @@ quora_username: # your Quora username
 research_gate_profile: # your profile on ResearchGate
 scholar_userid: 4zOu3UkAAAAJ # your Google Scholar ID
 scopus_id: # your profile on Scopus
-semanticscholar_id: 47447649 # your Semantic Scholar ID
+semanticscholar_id:  # your Semantic Scholar ID
 spotify_id: # your spotify id
 stackoverflow_id: # your stackoverflow id
 telegram_username: # your Telegram user name
@@ -167,8 +167,8 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+  # - name: medium.com
+  #   rss_url: https://medium.com/@al-folio/feed
   - name: Google Blog
     posts:
       - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
