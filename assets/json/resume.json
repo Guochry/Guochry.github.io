@@ -8,6 +8,14 @@
       "studyType": "Bachelor of Engineering",
       "startDate": "2020-09",
       "endDate": "2020-06"
+    },
+    {
+      "institution": "University of California, Davis",
+      "location": "California, US",
+      "url": "https://cs.ucdavis.edu",
+      "studyType": "Exchange program",
+      "startDate": "2022-09",
+      "endDate": "2022-12"
     }
   ],
   "Experience": [
