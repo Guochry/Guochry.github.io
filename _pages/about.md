@@ -21,4 +21,4 @@ Previously, I obtained my Bachelor’s degree from [GSAI](http://ai.ruc.edu.cn),
 Also, I had a meaningful time at Microsoft Research Asia as a research intern, working with [Dr. Xingxing Zhang](https://xingxingzhang.github.io).
 
 
-**Email:** guogeyang at ruc.edu.cn
+**Email:** guogeyang at gatech.edu
