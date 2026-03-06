@@ -15,15 +15,19 @@ Hi! I am Geyang Guo (郭歌扬). I’m a CS Ph.D. student at [Georgia Tech](http
 
 Previously, I obtained my Bachelor’s degree from [GSAI](http://ai.ruc.edu.cn), [Renmin University of China](https://www.ruc.edu.cn), and was honored to be advised by [Prof. Wayne Xin Zhao](https://scholar.google.com/citations?user=JNhNacoAAAAJ).
 
-Also, I had a meaningful time at Microsoft Research Asia as a research intern, working with [Dr. Xingxing Zhang](https://xingxingzhang.github.io).
+I also spent a meaningful time at Microsoft Research Asia as a research intern, working with [Dr. Xingxing Zhang](https://xingxingzhang.github.io).
 
 **Email:** guogeyang at gatech.edu
 
-## Selected Publications
+## [Selected Publications](/publications/)
 
 {% include selected_papers.liquid %}
 
+<p style="margin-top: -0.5rem;">
+  <a href="/publications/">Full publication list →</a>
+</p>
+
 ## Academic Services
 
-- Conference Reviewer: Neurips 2025, ICLR 2025-2026, ICML 2026, ARR
-- Teaching Assistant: Large language models (CS8803 @ Gatech, Spring 2026)
+- **Conference Reviewing:** NeurIPS 2025; ICLR 2025, 2026; ICML 2026; ARR
+- **Teaching:** Teaching Assistant, *Large Language Models* (CS 8803, Georgia Tech, Spring 2026)
