@@ -1,53 +1,42 @@
-/******************************************************************************
- * Content
- ******************************************************************************/
-
-body {
-  padding-bottom: 70px;
-  color: var(--global-text-color);
-  background-color: var(--global-bg-color);
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    scroll-margin-top: 66px;
-  }
+/* homepage selected publications */
+.homepage-publications {
+  margin-top: 0.2rem;
+  margin-bottom: 1.8rem;
 }
 
-body.fixed-top-nav {
-  // Add some padding for the nav-bar.
-  padding-top: 56px;
+.homepage-publications ol.bibliography {
+  margin-top: 0.3rem;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
 }
 
-body.sticky-bottom-footer {
-  // Remove padding below footer.
-  padding-bottom: 0;
+.homepage-publications ol.bibliography li {
+  margin-bottom: 1.2rem;
+  clear: none;
 }
 
-.container {
-  max-width: $max-content-width;
+.homepage-publications .row {
+  margin-bottom: 0;
 }
 
-// Profile
-.profile {
-  img {
-    width: 100%;
-  }
+.homepage-publications .title {
+  font-weight: 600;
 }
 
-// TODO: redefine content layout.
+.homepage-publications .author,
+.homepage-publications .periodical {
+  margin-top: 0.15rem;
+  margin-bottom: 0.15rem;
+}
 
-/******************************************************************************
- * Publications
- ******************************************************************************/
+.homepage-publications .links {
+  margin-top: 0.35rem;
+}
 
-// TODO: redefine publications layout.
-
-/*****************************************************************************
-* Projects
-*****************************************************************************/
-
-// TODO: redefine projects layout.
+/* make section spacing tighter */
+.post h2,
+article h2 {
+  margin-top: 1.8rem;
+  margin-bottom: 0.5rem;
+}
