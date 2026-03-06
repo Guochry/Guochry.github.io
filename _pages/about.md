@@ -19,12 +19,10 @@ I also spent time at Microsoft Research Asia as a research intern, working with 
 
 **Email:** guogeyang at gatech.edu
 
-<p class="homepage-section-title">
-  <a href="/publications/">Selected Publications</a>
-</p>
+## [Selected Publications](/publications/)
 
 <div class="homepage-publications">
-  {% include selected_papers.liquid %}
+{% include selected_papers.liquid %}
 </div>
 
 ## Academic Services
