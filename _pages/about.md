@@ -21,9 +21,7 @@ I also spent time at Microsoft Research Asia as a research intern, working with 
 
 ## [Selected Publications](/publications/)
 
-<div class="homepage-publications">
 {% include selected_papers.liquid %}
-</div>
 
 ## Academic Services
 
