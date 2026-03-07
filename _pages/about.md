@@ -25,5 +25,5 @@ Also, I had a meaningful time at Microsoft Research Asia as a research intern, w
 
 ## Academic Services
 
-- Conference Reviewer: Neurips 2025, ICLR 2025-2026, ICML 2026, ARR
+- Conference Reviewer: NeurIPS, ICLR, ICML, ARR
 - Teaching Assistant: Large language models (CS8803 @ Gatech, Spring 2026)
