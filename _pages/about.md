@@ -11,7 +11,7 @@ profile:
 news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 academic_services:
-  - "Conference Reviewer: NeurIPS, ICLR, ICML, ARR"
+  - "Program Committee / Conference Reviewer: NeurIPS, ICLR, ICML, AAAI, ARR"
   - "Teaching Assistant: Large language models (CS8803 @ Gatech, Spring 2026)"
 social: true # includes social icons at the bottom of the page
 ---
