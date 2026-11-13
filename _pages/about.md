@@ -2,7 +2,6 @@
 layout: about
 title: About
 permalink: /
-role: CS Ph.D. student · Georgia Tech
 
 profile:
   align: right
