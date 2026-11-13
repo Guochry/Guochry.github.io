@@ -146,6 +146,9 @@ button:focus-visible {
   .academic-services li {
     padding-left: 0.35rem;
     margin-bottom: 0.5rem;
+    p {
+      margin-bottom: 0;
+    }
   }
   .social {
     border-top: 1px solid var(--global-divider-color);
