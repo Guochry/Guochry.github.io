@@ -1,0 +1,210 @@
+// Personal typography and layout; loaded after the template styles.
+:root {
+  --global-bg-color: #fcfbf8;
+  --global-text-color: #26332f;
+  --global-text-color-light: #65716b;
+  --global-theme-color: #246653;
+  --global-hover-color: #194c3e;
+  --global-divider-color: #dce2dc;
+  --global-card-bg-color: #fcfbf8;
+}
+
+html[data-theme="dark"] {
+  --global-bg-color: #19211f;
+  --global-text-color: #e2e9e3;
+  --global-text-color-light: #adbcb2;
+  --global-theme-color: #8acdb1;
+  --global-hover-color: #b2e4cd;
+  --global-divider-color: #37463f;
+  --global-card-bg-color: #202c26;
+}
+
+body {
+  font-family:
+    "DM Sans",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: -0.025em;
+}
+a {
+  text-underline-offset: 0.2em;
+}
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--global-theme-color);
+  outline-offset: 4px;
+}
+
+.navbar {
+  box-shadow: none;
+  border-bottom: 1px solid var(--global-divider-color);
+  .navbar-brand {
+    font-weight: 500;
+    letter-spacing: -0.025em;
+  }
+  .navbar-nav .nav-item .nav-link {
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+}
+
+.about-page {
+  padding-top: 1.5rem;
+  .post-header {
+    margin-bottom: 2rem;
+  }
+  .profile-eyebrow {
+    color: var(--global-text-color-light);
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+    margin-bottom: 0.65rem;
+  }
+  .post-title {
+    font-family: "Source Serif 4", Georgia, serif;
+    font-size: clamp(2.6rem, 6vw, 3.75rem);
+    font-weight: 400;
+    line-height: 1.15;
+    .font-weight-bold {
+      font-weight: 500 !important;
+    }
+  }
+  .about-intro {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 220px;
+    gap: 2.75rem;
+    align-items: start;
+    &.without-profile {
+      grid-template-columns: 1fr;
+    }
+  }
+  .about-bio {
+    grid-column: 1;
+    grid-row: 1;
+    min-width: 0;
+  }
+  .about-bio p {
+    margin-bottom: 1.15rem;
+  }
+  .profile {
+    grid-column: 2;
+    grid-row: 1;
+    float: none !important;
+    width: 100%;
+    margin: 0;
+    img {
+      border-radius: 8px !important;
+      box-shadow: none !important;
+      border: 1px solid var(--global-divider-color);
+    }
+  }
+  article > h2 {
+    margin: 3rem 0 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--global-divider-color);
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+  .publications {
+    margin-top: 0;
+  }
+  .publications ol.bibliography > li {
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid var(--global-divider-color);
+    &:last-child {
+      border-bottom: 0;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+    .title {
+      font-size: 1.05rem;
+      font-weight: 600;
+      line-height: 1.5;
+      margin-bottom: 0.35rem;
+    }
+    .author,
+    .periodical {
+      font-size: 0.9rem;
+      line-height: 1.7;
+    }
+    .links a.btn {
+      border-color: var(--global-divider-color);
+      border-radius: 4px;
+      font-size: 0.72rem;
+      box-shadow: none;
+    }
+  }
+  .academic-services {
+    padding-left: 1.2rem;
+  }
+  .academic-services li {
+    padding-left: 0.35rem;
+    margin-bottom: 0.7rem;
+  }
+  .social {
+    border-top: 1px solid var(--global-divider-color);
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    text-align: left;
+    .contact-icons {
+      font-size: 1.65rem;
+    }
+    .contact-icons a {
+      margin-right: 0.8rem;
+    }
+    .contact-note {
+      color: var(--global-text-color-light);
+      font-size: 0.85rem;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .about-page {
+    padding-top: 0;
+    .about-intro {
+      grid-template-columns: minmax(0, 1fr) 160px;
+      gap: 1.5rem;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  body {
+    font-size: 15px;
+  }
+  .about-page {
+    .post-header {
+      margin-bottom: 1.5rem;
+    }
+    .about-intro {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+    .profile {
+      width: 180px;
+      max-width: 100%;
+    }
+    article > h2 {
+      margin-top: 2rem;
+    }
+    .publications ol.bibliography > li .row > [id] {
+      flex: 1;
+      min-width: 0;
+    }
+  }
+}
