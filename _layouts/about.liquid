@@ -78,7 +78,15 @@ layout: default
             <p class="talk-meta">
               <span class="talk-title">{{ talk.title | escape }}</span>, {{ talk.venue | escape }}
               {% if talk.host -%}
-                <span class="talk-host">(Host: {{ talk.host | escape }})</span>
+                <span class="talk-host">
+                  (Host:
+                  {% if talk.host_url -%}
+                    <a href="{{ talk.host_url | escape }}">{{ talk.host | escape }}</a>
+                  {%- else -%}
+                    {{- talk.host | escape -}}
+                  {%- endif -%}
+                  )
+                </span>
               {%- endif %}
             </p>
           </li>

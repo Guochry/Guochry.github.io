@@ -14,6 +14,7 @@ invited_talks:
   - title: "Towards multilingual multicultural Large Language Models"
     venue: "University of Toronto"
     host: "Prof. Annie En-Shiun Lee"
+    host_url: "https://www.cs.toronto.edu/~ealee/"
     date: "2026-11"
     date_label: "November 2026"
 academic_services:
