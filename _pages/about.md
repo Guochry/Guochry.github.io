@@ -12,7 +12,7 @@ news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 invited_talks:
   - title: "Towards More Culturally Aware and Multilingual Large Language Models"
-    venue: "Ontario Tech University"
+    venue: "University of Toronto & Ontario Tech University"
     host: "Prof. Annie En-Shiun Lee"
     date: "2026-11-25"
     date_label: "November 25, 2026"
