@@ -11,7 +11,7 @@ profile:
 news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 invited_talks:
-  - title: "Towards More Culturally Aware and Multilingual Large Language Models"
+  - title: "Towards multilingual multicultural LLMs"
     venue: "University of Toronto & Ontario Tech University"
     date: "2026-11"
     date_label: "November 2026"
