@@ -75,9 +75,8 @@ layout: default
         {% for talk in page.invited_talks %}
           <li>
             <h3 class="talk-title">{{ talk.title | escape }}</h3>
-            <p class="talk-venue">{{ talk.venue | escape }}</p>
-            <p class="talk-date">
-              <time datetime="{{ talk.date | escape }}">{{ talk.date_label | escape }}</time>
+            <p class="talk-meta">
+              {{ talk.venue | escape }} · <time class="talk-date" datetime="{{ talk.date | escape }}">{{ talk.date_label | escape }}</time>
             </p>
           </li>
         {% endfor %}
