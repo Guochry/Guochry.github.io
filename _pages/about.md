@@ -10,6 +10,26 @@ profile:
 
 news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
+invited_talks:
+  - title: "Towards More Culturally Aware and Multilingual Large Language Models"
+    venue: "Ontario Tech University"
+    host: "Prof. Annie En-Shiun Lee"
+    date: "2026-11-25"
+    date_label: "November 25, 2026"
+    time: "11:10 AM–12:30 PM EST"
+    abstract: >-
+      As large language models (LLMs) are increasingly deployed worldwide, ensuring
+      their effectiveness across diverse languages and cultural contexts remains an
+      important challenge. In this talk, I will present three research directions
+      toward building more multilingual and culturally aware LLMs. First, I will
+      introduce CARE, a multilingual human preference dataset designed to improve
+      LLMs' understanding of culture-specific knowledge and social norms. Second,
+      I will discuss language-routed policy optimization (LRPO), a reinforcement
+      learning framework that improves multilingual alignment through language-aware
+      training. Finally, I will explore the broader societal implications of LLMs
+      through a study of how AI is portrayed in news media across the U.S., China,
+      and Russia. Together, these studies highlight opportunities for developing
+      LLMs that better serve linguistically and culturally diverse populations.
 academic_services:
   - "Program Committee / Conference Reviewer: NeurIPS, ICLR, ICML, AAAI, ARR"
   - "Teaching Assistant: [Large language models](https://cocoxu.github.io/CS8803-LLM-spring2026/calendar/) (CS8803 @ Gatech, Spring 2026)"

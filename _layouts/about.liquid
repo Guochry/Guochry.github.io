@@ -68,6 +68,28 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
+    <!-- Invited Talks -->
+    {% if page.invited_talks and page.invited_talks.size > 0 %}
+      <h2 id="invited-talks">Invited Talks</h2>
+      <ul class="invited-talks">
+        {% for talk in page.invited_talks %}
+          <li>
+            <h3 class="talk-title">{{ talk.title | escape }}</h3>
+            <p class="talk-venue">{{ talk.venue | escape }}{% if talk.host %} · Hosted by {{ talk.host | escape }}{% endif %}</p>
+            <p class="talk-date">
+              <time datetime="{{ talk.date | escape }}">{{ talk.date_label | escape }}</time>{% if talk.time %} · {{ talk.time | escape }}{% endif %}
+            </p>
+            {% if talk.abstract %}
+              <details class="talk-abstract">
+                <summary>Abstract</summary>
+                <p>{{ talk.abstract | escape }}</p>
+              </details>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
     <!-- Academic Services -->
     {% if page.academic_services %}
       <h2>Academic Services</h2>

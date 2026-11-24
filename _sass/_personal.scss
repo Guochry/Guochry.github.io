@@ -140,6 +140,48 @@ button:focus-visible {
       box-shadow: none;
     }
   }
+  .invited-talks {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    > li + li {
+      margin-top: 1.25rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--global-divider-color);
+    }
+    .talk-title {
+      font-size: 1.05rem;
+      font-weight: 600;
+      line-height: 1.5;
+      letter-spacing: normal;
+      margin: 0 0 0.35rem;
+    }
+    .talk-venue,
+    .talk-date {
+      font-size: 0.9rem;
+      margin-bottom: 0.25rem;
+    }
+    .talk-date {
+      color: var(--global-text-color-light);
+    }
+    .talk-abstract {
+      margin-top: 0.5rem;
+      summary {
+        width: fit-content;
+        color: var(--global-theme-color);
+        cursor: pointer;
+        font-size: 0.85rem;
+        &:focus-visible {
+          outline: 2px solid var(--global-theme-color);
+          outline-offset: 4px;
+        }
+      }
+      p {
+        margin: 0.65rem 0 0;
+        font-size: 0.9rem;
+      }
+    }
+  }
   .academic-services {
     padding-left: 1.2rem;
   }
