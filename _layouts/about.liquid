@@ -75,9 +75,13 @@ layout: default
         {% for talk in page.invited_talks %}
           <li>
             <h3 class="talk-title">{{ talk.title | escape }}</h3>
-            <p class="talk-venue">{{ talk.venue | escape }}{% if talk.host %} · Hosted by {{ talk.host | escape }}{% endif %}</p>
+            <p class="talk-venue">
+              {{ talk.venue | escape -}}
+              {%- if talk.host %} · Hosted by {{ talk.host | escape }}{% endif %}
+            </p>
             <p class="talk-date">
-              <time datetime="{{ talk.date | escape }}">{{ talk.date_label | escape }}</time>{% if talk.time %} · {{ talk.time | escape }}{% endif %}
+              <time datetime="{{ talk.date | escape }}">{{ talk.date_label | escape }}</time>
+              {%- if talk.time %} · {{ talk.time | escape }}{% endif %}
             </p>
             {% if talk.abstract %}
               <details class="talk-abstract">
