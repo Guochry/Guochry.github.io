@@ -13,7 +13,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 invited_talks:
   - title: "Towards multilingual multicultural Large Language Models"
     venue: "University of Toronto"
-    host: "Annie En-Shiun Lee"
+    host: "Prof. Annie En-Shiun Lee"
     date: "2026-11"
     date_label: "November 2026"
 academic_services:

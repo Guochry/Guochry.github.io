@@ -157,7 +157,7 @@ button:focus-visible {
       border-top: 1px solid var(--global-divider-color);
     }
     .talk-title {
-      font-weight: 600;
+      font-weight: 500;
     }
     .talk-meta {
       margin: 0;
@@ -165,6 +165,11 @@ button:focus-visible {
     }
     .talk-date {
       color: var(--global-text-color-light);
+    }
+    .talk-host {
+      color: var(--global-text-color-light);
+      font-size: 0.95em;
+      font-style: italic;
     }
   }
   .academic-services {
