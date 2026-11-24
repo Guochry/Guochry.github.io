@@ -164,23 +164,6 @@ button:focus-visible {
     .talk-date {
       color: var(--global-text-color-light);
     }
-    .talk-abstract {
-      margin-top: 0.5rem;
-      summary {
-        width: fit-content;
-        color: var(--global-theme-color);
-        cursor: pointer;
-        font-size: 0.85rem;
-        &:focus-visible {
-          outline: 2px solid var(--global-theme-color);
-          outline-offset: 4px;
-        }
-      }
-      p {
-        margin: 0.65rem 0 0;
-        font-size: 0.9rem;
-      }
-    }
   }
   .academic-services {
     padding-left: 1.2rem;
