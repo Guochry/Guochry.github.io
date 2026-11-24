@@ -77,6 +77,7 @@ layout: default
             <time class="talk-date" datetime="{{ talk.date | escape }}">{{ talk.date_label | escape }}</time>
             <p class="talk-meta">
               <span class="talk-title">{{ talk.title | escape }}</span>, {{ talk.venue | escape }}
+              {% if talk.host %}(Host: {{ talk.host | escape }}){% endif %}
             </p>
           </li>
         {% endfor %}
