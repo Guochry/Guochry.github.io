@@ -12,7 +12,7 @@ news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 invited_talks:
   - title: "Towards multilingual multicultural Large Language Models"
-    venue: "University of Toronto & Ontario Tech University"
+    venue: "University of Toronto"
     date: "2026-11"
     date_label: "November 2026"
 academic_services:
